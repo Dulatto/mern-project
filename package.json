@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
+  "scripts": {    
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm rin server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\"  \"npm run client\""
   },
   "repository": {
     "type": "git",
