@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {    
+  "scripts": {
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\"  \"npm run client\""
@@ -20,9 +20,11 @@
   },
   "homepage": "https://github.com/Dulatto/mern-project#readme",
   "dependencies": {
+    "axios": "^0.27.2",
     "concurrently": "^7.2.1",
     "express": "^4.18.1",
     "mongoose": "^6.3.8",
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.16",
+    "react-router-dom": "^6.3.0"
   }
 }
