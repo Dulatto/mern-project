@@ -16,6 +16,20 @@ function AuthPage() {
                                 />
                                 <label htmlFor="email">Email</label>
                             </div>
+                            <div className="input-field col s12">
+                                <input
+                                    type="password"
+                                    name="password"
+                                    className='validate'
+                                />
+                                <label htmlFor="password">Password</label>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <button className="wawes-effect wawes-light btn btn blue">
+                                Submit
+                            </button>
+                            <a href="/" className="btn-outline btn-reg">Don't have an account?</a>
                         </div>
                     </form>
                 </div>
