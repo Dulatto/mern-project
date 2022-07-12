@@ -38,33 +38,35 @@ function AuthPage() {
                                 </form>
                             </Route>
 
-                            <h3>Registration</h3>
-                            <form className="form form-login">
-                                <div className="row">
-                                    <div className="input-field col s12">
-                                        <input
-                                            type="email"
-                                            name="email"
-                                            className='validate'
-                                        />
-                                        <label htmlFor="email">Email</label>
+                            <Route path='/registration'>
+                                <h3>Registration</h3>
+                                <form className="form form-login">
+                                    <div className="row">
+                                        <div className="input-field col s12">
+                                            <input
+                                                type="email"
+                                                name="email"
+                                                className='validate'
+                                            />
+                                            <label htmlFor="email">Email</label>
+                                        </div>
+                                        <div className="input-field col s12">
+                                            <input
+                                                type="password"
+                                                name="password"
+                                                className='validate'
+                                            />
+                                            <label htmlFor="password">Password</label>
+                                        </div>
                                     </div>
-                                    <div className="input-field col s12">
-                                        <input
-                                            type="password"
-                                            name="password"
-                                            className='validate'
-                                        />
-                                        <label htmlFor="password">Password</label>
+                                    <div className="row">
+                                        <button className="wawes-effect wawes-light btn blue">
+                                            Registration
+                                        </button>
+                                        <a href="/" className="btn-outline btn-reg">Already have an account?</a>
                                     </div>
-                                </div>
-                                <div className="row">
-                                    <button className="wawes-effect wawes-light btn blue">
-                                        Registration
-                                    </button>
-                                    <a href="/" className="btn-outline btn-reg">Already have an account?</a>
-                                </div>
-                            </form>
+                                </form>
+                            </Route>
                         </div>
                     </div>
                 </React.Fragment>
